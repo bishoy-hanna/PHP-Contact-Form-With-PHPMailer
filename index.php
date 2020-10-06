@@ -35,7 +35,7 @@ $mail->Username = ""; // Enter your email here
 $mail->Password = ""; //Enter your password here
 $mail->Port = 25;
 $mail->IsHTML(true);
-$mail->From = $send_email;
+$mail->From = $fromserver;
 $mail->FromName = "Massage From User";
 $mail->Sender = $fromserver; // indicates ReturnPath header
 $mail->Subject = $subject;
